@@ -1,7 +1,5 @@
 package com.example.realm06;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,7 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.Model.DanhMuc;
 import com.example.Model.SanPham;
@@ -31,9 +32,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<SanPham> sanPhamAdapter;
     DanhMuc selectedDanhMuc;
     Button btnThem, btnSua, btnXoa;
-    ArrayList<SanPham> sanPhams = new ArrayList<>();
-    SanPham selectedSanPham;
     int vt = -1;
+    private TextView textView1, textView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
