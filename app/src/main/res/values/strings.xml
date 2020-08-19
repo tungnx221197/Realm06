@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Realm06</string>
+    <string name="title">Quản lý Sản phẩm</string>
+    <string name="danhMuc">Danh mục</string>
+    <string name="maSanPham">Mã Sản phẩm</string>
+    <string name="tenSanPham">Tên Sản phẩm</string>
+    <string name="donGia">Đơn giá</string>
+    <string name="hint_maSanPham">Mã Sản phẩm</string>
+    <string name="hint_tenSanPham">Tên Sản phẩm</string>
+    <string name="title2">Danh sách Sản phẩm theo Danh mục</string>
+    <string name="text_btnThem">Thêm</string>
+    <string name="text_btnSua">Sửa</string>
+    <string name="text_btnXoa">Xóa</string>
+</resources>
